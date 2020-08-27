@@ -1,0 +1,333 @@
+h1{
+  font-size: 90px;
+  margin:50px auto 0 auto;
+  font-family: 'Uncial Antiqua', cursive;
+  color:#66BFBF;
+}
+
+body{
+  color:#40514e;
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h2{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  color:#66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3{
+  font-family: 'Ubuntu', sans-serif;
+  color: #11999E;
+}
+
+p{
+  line-height:2;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#eaf6f6;
+}
+
+hr{
+  border-style: dotted none none;
+  border-color: #11999E;
+  border-width: 10px;
+  width: 8%;
+  margin: 100px auto;
+}
+
+
+.contact-message{
+  width:40%;
+  margin:4px auto 60px;
+}
+
+.sub{
+  font-weight: normal;
+  padding-bottom: 20px;
+}
+
+/* Containers */
+.container-fluid{
+  padding: 7% 15%;
+}
+
+.top-container{
+  background-color: #eaf6f6;
+  margin:0;
+  position: relative;
+  padding-top:150px;
+  line-height: 2;
+}
+
+.skill-row{
+  width:50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.middle-container{
+  margin: 100px 0;
+}
+
+.bottom-container{
+background-color: #66bfbf;
+padding: 40px;
+}
+
+.carousel-item{
+  margin-top:40px;
+  margin-bottom: 40px;
+}
+
+.intro{
+  width:20%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.copyright{
+  color:#eaf6f6;
+  font-size: 0.75rem;
+}
+
+.top-cloud{
+  position:absolute;
+  right:300px;
+  top:50px
+}
+
+.bitmoji{
+  border-radius: 0%;
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+
+.bottom-cloud{
+  position:absolute;
+  left:250px;
+  bottom:300px;
+  padding: 20px 0;
+}
+
+.me{border-radius: 50%;
+height: 250px;
+margin-bottom: 20px;
+}
+
+/* Skill Images */
+.atom{
+  width:25%;
+  float: left;
+  margin-right:30px;
+}
+
+.robot{
+  width:25%;
+  float:right;
+  margin-left: 30px;
+}
+
+.running{
+  width:25%;
+  float: left;
+  margin-right:30px;
+}
+
+.web-dev{
+  width:25%;
+  float: right;
+  margin-right:30px;
+}
+
+.ursa{
+  width:25%;
+  float: left;
+  margin-right:30px;
+}
+
+.museum{
+  width:25%;
+  float: right;
+  margin-right:30px;
+}
+
+.intro{
+  display: inline-block;
+}
+
+
+.edu{
+  padding-bottom: 100px;
+}
+
+/* History Cards */
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: white;
+  width: 400px;
+  height: 300px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  display: inline-block; margin-right: 40px; margin-left: 40px;
+}
+
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back, .flip-card-back-1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: white;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: #0A3DBB;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card-back-1 {
+  background-color: #cc5500;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.Card_Back{
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  padding-bottom: 10px;
+  margin-top: 15px;
+}
+
+.Card_Back-1{
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  padding-bottom: 20px;
+  margin-top: 23px;
+}
+
+.college-link{
+  color: white;
+}
+
+/* Skills */
+#Skill_scroll{
+  background-color: #eaf6f6;
+}
+
+.skills{
+  padding-top: 150px;
+}
+
+
+/* Button */
+.btn {
+	background-color:#0d87b3;
+	border-radius:28px;
+	border:1px solid #29668f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Ubuntu', sans-serif;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #3d768a;
+  margin-top: 60px;
+}
+.btn:hover {
+	background-color:#0eb89c;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.blockquote{
+  max-width:600px;
+  margin: 10px 30px;
+  padding: 25px;
+  background: #f8fffe;
+  border:1px solid #b0d2cb;
+  color:#0b4237;
+  box-sizing: border-box;
+  position:relative;
+  margin-left: 33.5%;
+
+}
+
+.blockquote-credit{
+  font-weight: bold;
+  font-style: normal;
+  text-align: right;
+  max-width:600px;
+  margin: 0px 30px;
+  padding: 25px;
+  background: #f8fffe;
+  color:#0b4237;
+  box-sizing: border-box;
+}
+
+.blockquote-credit::before{
+  content: "\2014\0020";
+}
+
+.blockquote-quoted::before{
+  content: "\201c";
+  font-size: 80px;
+  color:#009578;
+  display: block;
+  margin-bottom: -40px;
+  margin-top: -20px;
+  text-align: left;
+}
+
+.quote{
+  font-family: 'Gelasio', serif;
+  font-style:italic;
+  font-size: 1.15em;
+  line-height: 1.5;
+  margin:0;
+}
+
+.contact-me{
+  margin-top:60px;
+}
